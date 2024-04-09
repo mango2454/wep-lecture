@@ -1,0 +1,28 @@
+main{
+    position: relative;
+    width: 300px;
+    height: 120px;
+    overflow: auto;
+    background-color: tomato;
+
+}
+
+div{
+    width: 200px;
+    height: 100px;
+    border: 1px solid;
+    text-align: center;
+    line-height: 100px;
+    background-color: yellow;
+}
+
+.spectial{
+    /* position: static; */
+    /* position: relative; */
+    /* position: absolute; */
+    /* position: fixed; */
+    position: sticky;
+    top: 0;
+    background-color: cyan;
+    opacity: 0.8;
+}
