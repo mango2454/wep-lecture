@@ -1,0 +1,57 @@
+.a{
+    flex-direction: column;
+    display: flex;
+    border: 1px solid;
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    justify-content: center;
+    align-items: center;
+    align-items: end;
+    background-color: yellow;
+    width: 300px;
+    height: 200px;
+}
+.b{
+    
+    background-color: green;
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    text-align: center;
+}
+.a2{
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between; 
+    /* justify-content: space-around; */
+    background-color: yellow;
+    width: 300px;
+    height: 200px;
+}
+.b2{
+    
+    background-color: green;
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    text-align: center;
+}
+.a3{
+    border: 1px solid;
+    display: flex;
+    justify-content: space-evenly;
+    /* 양옆을 동일하게주고 남은곳을 동일한 간격으로 배치 */
+    /* justify-content: space-between;  */
+    /* justify-content: space-around; */
+    background-color: yellow;
+    width: 300px;
+    height: 200px;
+}
+.b3{
+    
+    background-color: green;
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    text-align: center;
+}
